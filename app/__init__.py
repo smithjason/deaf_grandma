@@ -10,7 +10,8 @@ def create_app(config_object):
 
 def register_blueprints(app):
     """ Register routes to app """
-    pass
+    from .grandma import blueprint as grandma_blueprint
+    app.register_blueprint(grandma_blueprint)
 
 def register_errorhandlers(app):
     """ Custom Error Pages """
