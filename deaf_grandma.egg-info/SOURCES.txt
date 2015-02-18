@@ -1,0 +1,8 @@
+setup.py
+app/__init__.py
+app/settings.py
+deaf_grandma.egg-info/PKG-INFO
+deaf_grandma.egg-info/SOURCES.txt
+deaf_grandma.egg-info/dependency_links.txt
+deaf_grandma.egg-info/requires.txt
+deaf_grandma.egg-info/top_level.txt
